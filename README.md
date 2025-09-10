@@ -23,9 +23,9 @@ The result? **LLMs significantly outperform traditional ML** in capturing nuance
 
 ## 📊 Key Findings
 
-- Traditional ML models achieved ~65–70% F1 scores.
+- Traditional ML models achieved ~30–70% F1 scores.
 - Base LLMs reached ~80–85% F1 scores out-of-the-box.
-- Fine-tuned LLMs pushed performance above **90%**, especially on tricky cases like sarcasm, and shorthand.
+- Fine-tuned LLMs pushed performance above **90%**.
 
 ---
 
@@ -116,4 +116,4 @@ Please email me at falak.jain87@gmail.com in case you face any challenges.
 
 ## My Inspiration
 
-I would like to give a shout out to [Edward Donner](https://edwarddonner.com) from whom I learned so much of what I know about LLM Engineering. His [GitHub](https://github.com/ed-donner) is full of interesting projects which you could fine useful too.
+I would like to give a shout out to [Edward Donner](https://edwarddonner.com) from whom I learned so much of what I know about LLM Engineering. His [GitHub](https://github.com/ed-donner) is full of interesting projects which you could find useful too.
