@@ -44,16 +44,20 @@ The result? **LLMs significantly outperform traditional ML** in capturing nuance
 ```bash
 wallstreet_llm/
 │
-├── scripts/                  # Python code and jupyter notebooks for experiments
-│   ├── 01_data_prep.ipynb    # Data cleaning & preprocessing
-│   ├── 02_ml_models.ipynb    # Random Forest, SVC, Logistic Regression
-│   ├── 03_llm_baseline.ipynb # Zero-shot & base LLM evaluation
-│   ├── 04_llm_finetune.ipynb # Fine-tuning on dataset
-│   └── 05_results.ipynb      # Comparison, metrics, and visualizations
+├── scripts/                                            # Python code and jupyter notebooks for experiments
+│   ├── eda.ipynb                                       # Data exploration
+│   ├── train_test.ipynb                                # Create train test data splits
+│   ├── baseline_models.ipynb                           # Random Forest, SVC, Logistic Regression
+│   ├── frontier_llms.ipynb                             # Frontier LLMs
+│   ├── baseline_open_source_llms.ipynb                 # Base versions of open source LLMs
+│   ├── fine_tuning_open_source_llms.ipynb              # Performing fine-tuning on open source LLMs
+│   ├── testing_fine_tuned_open_source_llms.ipynb       # Results of fine-tuned open source LLMs
+│   ├── items.py                                        # Helper script to load tweets in desired format
+│   └── testing.py                                      # Helper script to evaluate model performance
 │
-├── requirements.txt          # Python dependencies
-├── README.md                 # This file
-└── environment.yml           # YML file for environment set up
+├── requirements.txt      # Python dependencies
+├── README.md             # This file
+└── environment.yml       # YML file for environment set up
 ```
 
 ---
